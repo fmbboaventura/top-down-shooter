@@ -1,6 +1,6 @@
 # Top Down Shooter
 
-Usaremos este projeto para introduzir diversos conceitos  durante o curso da disciplia de Jogos Digitais.
+Usaremos este projeto para introduzir diversos conceitos  durante o curso da disciplina de Jogos Digitais.
 
 Para importar o projeto, abra o Unity Hub na aba `Projects`, clique em `ADD` e selecione a pasta do projeto. Após importar o projeto, abra uma das cenas na pasta `Scenes` para editar.
 
