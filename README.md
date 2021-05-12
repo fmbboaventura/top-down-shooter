@@ -16,3 +16,9 @@ https://opengameart.org/content/retro-shooter-sound-effects
 
 Ferramenta para criar chiptunes
 https://sfbgames.itch.io/chiptone
+
+Explosion
+https://opengameart.org/content/explosion-0
+
+Simple Explosion - Bleed's Game Art
+https://opengameart.org/content/simple-explosion-bleeds-game-art
