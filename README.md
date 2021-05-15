@@ -22,3 +22,15 @@ https://opengameart.org/content/explosion-0
 
 Simple Explosion - Bleed's Game Art
 https://opengameart.org/content/simple-explosion-bleeds-game-art
+
+Spider Chattering
+https://opengameart.org/content/spider-chattering
+
+8 wet squish, slurp impacts
+https://opengameart.org/content/8-wet-squish-slurp-impacts
+
+Insect or alien scream
+https://opengameart.org/content/insect-or-alien-scream
+
+Insect or alien scream (short)
+https://opengameart.org/content/insect-or-alien-scream-short

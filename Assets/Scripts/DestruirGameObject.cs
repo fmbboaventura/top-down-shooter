@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitEffect : MonoBehaviour
+public class DestruirGameObject : MonoBehaviour
 {
     public void Destruir()
     {
