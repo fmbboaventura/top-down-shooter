@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         // posição atual + a direção do movimento definida pelo input 
         // * a velocidade desejada * o tempo entre a chamada atual e a ultima chamada 
         // do método FixedUpdate
-        rb.MovePosition(rb.position + movimento * velocidade * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movimento.normalized * velocidade * Time.fixedDeltaTime);
 
         // Traça um vetor entre a posição do jogador e a posição do mouse
         Vector2 direcao = posMouse - rb.position;
