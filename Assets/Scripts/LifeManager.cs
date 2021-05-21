@@ -10,6 +10,25 @@ public class LifeManager : MonoBehaviour
     [SerializeField]
     private int maxLife = 100;
 
+    public int Life {
+        get => life;
+    }
+
+    public int MaxLife {
+        get => maxLife;
+    }
+
+    private bool invencivel = false;
+
+    public bool Invencivel
+    {
+        get => invencivel;
+    }
+
+    private float timer;
+
+    [SerializeField] private float tempoDeInvencibilidade = 0;
+
     [SerializeField]
     private UnityEvent onDeath;
 
@@ -25,7 +44,29 @@ public class LifeManager : MonoBehaviour
 
         if (life == 0) 
         {
+            invencivel = false;
             onDeath.Invoke();
+        }
+    }
+
+    public void CausarDano(int dano) {
+        if (!invencivel && life > 0) 
+        {
+            AddLife(-dano);
+            invencivel = true;
+        }
+    }
+
+    void Update()
+    {
+        if (invencivel)
+        {
+            timer += Time.deltaTime;
+
+            if (timer >= tempoDeInvencibilidade) {
+                timer = 0;
+                invencivel = false;
+            }
         }
     }
 }
