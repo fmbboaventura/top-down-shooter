@@ -12,6 +12,7 @@ public class LifeManager : MonoBehaviour
 
     public int Life {
         get => life;
+        set => life = value;
     }
 
     public int MaxLife {
@@ -35,7 +36,7 @@ public class LifeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AddLife(maxLife);
+        if (life == 0) AddLife(maxLife);
     }
 
     public void AddLife(int val)
